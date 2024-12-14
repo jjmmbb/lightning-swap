@@ -1,5 +1,5 @@
 <p height="auto" width="200" align="center">
-  <img src="https://i.imgur.com/2p9gHFw.png" alt="Logo">
+  <img src="https://i.imgur.com/T610QcX.png" alt="Logo">
 </p>
 
 <p align="center"> Lightning swap is a simple off-chain to on-chain swap service. </p>
@@ -14,6 +14,6 @@ nano .env
 2 - With the configuration done now you can start the application with a simple command.
 
 ```bash
-bash ./scripts/start.sh
+docker-compose --env-file .env up -d
 ```
 <b>Now access:</b> http://localhost:5173
